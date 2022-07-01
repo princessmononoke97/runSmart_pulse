@@ -224,5 +224,33 @@
     .catalog-item {
         width: 285px;
     }
+    .feedback .feedback__text {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    .feedback .feedback__item:nth-child(2) {
+        margin-top: 40px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .feedback .feedback__item {
+        flex-direction: column;
+        align-items: center;
+    }
+    .feedback {
+        .title {
+            margin-bottom: 0;
+        }
+        &__descr {
+            text-align: justify;
+        }
+        &__subtitle {
+            text-align: center;
+            margin-top: 20px;
+        }
+        &__count {
+            text-align: center;
+        }
+    }
 }
     
